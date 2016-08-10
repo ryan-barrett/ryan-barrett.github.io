@@ -1,12 +1,12 @@
-# Learn Git Lab
+# Learn Git Training
 
-1. Create a fork of the [personal-portfolio repository](https://github.com/sf-wdi-31/personal-portfolio) by clicking "Fork" on the top right.
+1. Create a fork of the [this](https://github.com/sf-wdi-31/personal-portfolio) by clicking "Fork" on the top right.
 
   ![fork button](https://cloud.githubusercontent.com/assets/6520345/17564556/97ecdd00-5ee8-11e6-9ad0-a7b8104579ff.png)
 
-2. You'll see a screen like this while GitHub is forking the repo. Forking creates a copy of the original repo on your own GitHub account.
+2. You'll see a screen like the one below while GitHub is forking the repo. Forking creates a copy of the original repo on your own GitHub account. The forked repo is still online only and not on your computer.
 
-  ![screen-shot-2015-10-20-at-17 21 15-1](https://cloud.githubusercontent.com/assets/7833470/10625502/b422f2e8-7758-11e5-8cf1-09ae4fd7d946.png)
+  ![forking](https://cloud.githubusercontent.com/assets/6520345/17570801/c0d27e36-5f02-11e6-8d44-f485301831ed.png)
 
 3. Now you have your own copy of the repo! In order to make this a live personal website, we're going to take advantage of GitHub's [*GitHub pages*](https://pages.github.com/) feature. All we need to do is change the repository name to `<fill in your GitHub username>.github.io`. Here's how:
   * Click on the settings tab toward the top of the page: ![settings tab](https://cloud.githubusercontent.com/assets/6520345/17564907/fc20986a-5ee9-11e6-8e7f-abc19c482a7b.png)
@@ -54,12 +54,12 @@
   *  
   <details>
     <summary>In the `<head>` element, change the `<title>` of the page. Where can you observe the impact of this change?</summary>
-    <p>On the tab in the browser, your site will display a new name</p>
+    <p>On the tab in the browser, your site will display a new name. It used to be "First Training."</p>
   </details>
-  * 
+  *
   <details>
-    <summary>If you were to write some Javascript to handle events on this page, what file would be the correct place?</summary>
-    <p></p>
+    <summary>If you were to write some Javascript to handle events on this page, what file would be the correct place to write that code?</summary>
+    <p>You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.</p>
   </details>
 
 1. In the `<body>` of the document, replace the `<h1>` tag with your name and add an image (or gif) of your liking `<img>` tag.
@@ -89,8 +89,21 @@
   ```
   ➜  git push origin master
   ```
+>***Note:*** *`origin` is the given name of the remote repository hosted on GitHub. `master` is the name of the main branch within the repository. (Typically `master` is the branch you update when you're ready to publish changes to the world.)*
+
   Now `git status` will tell you that `Your branch is up-to-date with 'origin/master'.` __!!!__
 
 2. Check back in on your site to see the improvements deployed!
 
-1. Repeat! Add some new content to your file and repeat this Git flow.
+1. Repeat steps 11 onward to improve your site and practice this Git workflow.
+
+# Deliverables
+
+On Friday, we will be having a feedback session on your progress on the personal portfolio project. By then we expect to see:
+
+* An updated README.md file. Describe this project in a few sentences - what are you trying to achieve with this page, what technologies are you using, etc. [This is a decent template](https://gist.github.com/zenorocha/4526327) for the way that a readme often looks. Make sure to link to the live site and include some sort of image (logo or screenshot). If you need help writing markdown language (the reason the file ends in `.md`), check out [this guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+* A "My work" section of the page that includes (or will include) links to all repos that contain homework deliverables.
+* A "Contact me" section of the page that includes (at least) a way to email you, a link to your GitHub profile, and a link to your LinkedIn profile.
+* Some custom HTML, CSS, JS, and images. Put your own personal flare on the page and add some customizations. These could be really simple changes that add a bit of your aesthetic or they could be larger features like a navbar, a footer, a sidebar, or a carousel. [Google for personal websites](https://www.google.com/search?q=personal+website&espv=2&biw=1280&bih=612&site=webhp&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjx-Krl6bfOAhUUI2MKHaoPDUEQsAQIQA&dpr=2#imgrc=OOkEvdqZczSU-M%3A), find one that you like, and imitate it!
+
+We're really looking forward to seeing what you've built by Friday!
