@@ -95,7 +95,7 @@
 
 2. Check back in on your site to see the improvements deployed!
 
-1. Repeat steps 11 onward to improve your site and practice this Git workflow.
+1. Repeat steps 11 onward at least three times to improve your site and practice this Git workflow.
 
 # Deliverables
 
