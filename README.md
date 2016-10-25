@@ -1,6 +1,6 @@
 # Learn Git Training
 
-1. Create a fork of the [this](https://github.com/sf-wdi-31/personal-portfolio) by clicking "Fork" on the top right.
+1. Create a fork of the [this](https://github.com/sf-wdi-LABS/personal-portfolio) by clicking "Fork" on the top right.
 
   ![fork button](https://cloud.githubusercontent.com/assets/6520345/17564556/97ecdd00-5ee8-11e6-9ad0-a7b8104579ff.png)
 
@@ -62,7 +62,7 @@
     <p>You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.</p>
   </details>
 
-1. In the `<body>` of the document, replace the `<h1>` tag with your name and add an image (or gif) of your liking `<img>` tag.
+1. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
 
 6. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
 
@@ -77,7 +77,7 @@
   ```
   Now enter `git status`. Notice that your new file has gone from `untracked` to `Changes to be committed`.
 
-1. Next step is committing. Type
+1. Next step is committing. Type the following:
 
   ```
   ➜  git commit -m "first edits to index.html"
