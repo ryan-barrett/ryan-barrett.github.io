@@ -1,1 +1,78 @@
-/* custom styles */
+img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 500px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+}
+h1{
+
+  text-align: center;
+  font-size: 450%;
+  margin-bottom: 0;
+  font-family: "TIMES NEW ROMAN";
+
+  color:black;
+  margin-top: 0;
+  margin-bottom:3%;
+
+
+}
+body {
+
+  background-image:url('/home/ryan/wdi/ryan-barrett.github.io/assets/imgs/brickwall.png');
+  background-color: #39CCCC;
+}
+ul{
+list-style-type: none;
+display:inline-block;
+font-size: 150%;
+margin-left: 7%;
+}
+div{
+margin-bottom: 24px;
+
+}
+hr{
+  width: 100%;
+  float:left;
+  margin-bottom: 4%;
+  clear: both;
+
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: teal;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: "TIMES NEW ROMAN"
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav .icon {
+    display: none;
+}
+h2 {
+  font-size: 200%;
+  font-family: "TIMES NEW ROMAN"
+}
+.about{
+  {
+width: 200px;
+position: absolute;
+right: 50%;
+margin-right: -100px
+}
+
+}
