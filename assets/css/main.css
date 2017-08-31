@@ -1,88 +1,74 @@
-img {
-   position: absolute;
-   top: 43%;
-   left: 62%;
-   width: 500px;
-   height: 500px;
-   margin-top: -250px; /* Half the height */
-   margin-left: -250px; /* Half the width */
-}
-h1{
-
-  text-align: center;
-  font-size: 350%;
-  font-family: "TIMES NEW ROMAN";
-  color:black;
-  margin-top: 0;
-  margin-bottom:3%;
-
-
-}
-body {
-
-  background-image:url('/home/ryan/wdi/ryan-barrett.github.io/assets/imgs/brickwall.png');
-  background-color: #39CCCC;
-}
-ul{
-list-style-type: none;
-display:inline-block;
-font-size: 150%;
-margin-left: 7%;
-}
-div{
-margin-bottom: 24px;
-font-size:110%;
-
-}
-hr{
-  width: 100%;
-  float:left;
-  margin-bottom: 4%;
-  clear: both;
-
-}
 .topnav {
-    background-color: white;
-    overflow: hidden;
+  background-color: #caebf2;
+  overflow: hidden;
 }
 .topnav a {
-    float: left;
-    display: block;
-    color: teal;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 19px;
-    font-family: "TIMES NEW ROMAN"
+  float: left;
+  display: block;
+  color: #433237;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "TIMES NEW ROMAN";
 }
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 .topnav .icon {
-    display: none;
+  display: none;
 }
-h2 {
-  font-size: 200%;
-  font-family: "TIMES NEW ROMAN"
+body {
+  background-color: #efefef;
 }
-.about{
-  {
-width: 200px;
-position: absolute;
-right: 50%;
-margin-right: -100px
+hr {
+  width: 45%;
+  position: relative;
+  right: 29%;
 }
-
+footer {
+  position: relative;
+  top: 100px;
+  right: 200px;
 }
-footer{
-  text-align: center;
-  margin-top: 8%;
-  display:block;
-  padding: 10px;
-  margin-left: 23%;
-
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-i {
-  margin-left: 1%;
+.picture {
+  width: 35%;
+  height: auto;
+  position: relative;
+  left: 32%;
+  bottom: 200px;
+  float: left;
+}
+.info {
+  position: relative;
+  top: 200px;
+  width: 28%;
+}
+.content {
+  position: relative;
+  left: 15%;
+  bottom: 145px;
+}
+.imgContainer {
+  margin-left: 0;
+  padding: 0;
+  position: relative;
+  top: 90px;
+}
+.myName {
+  position: relative;
+  top: 120px;
+  left: 20%;
+  font-size: 250%;
+  font-family: "franchise";
+}
+.picInfo {
+  position: relative;
+  bottom: 40px;
 }
