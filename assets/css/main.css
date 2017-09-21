@@ -19,6 +19,29 @@
 .topnav .icon {
   display: none;
 }
+
+.image-splash {
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  vertical-align: bottom;
+  min-height: 600px;
+  background-size: cover;
+  background-position: top;
+  background-image: url("https://i.imgur.com/vsVUgGE.jpg");
+}
+
+.splash-login-container {
+  text-align: center;
+  z-index: 1000;
+  margin: auto;
+}
+
+.splash-text {
+  position: relative;
+  bottom: 60px;
+}
+
 body {
   background-color: #efefef;
 }
@@ -34,8 +57,6 @@ footer {
 }
 html {
   font-size: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 .picture {
   width: 35%;
@@ -71,4 +92,44 @@ html {
 .picInfo {
   position: relative;
   bottom: 40px;
+}
+
+.splash-info {
+  color: white;
+  font-size: 400%;
+}
+
+.splash-info-sub {
+  color: white;
+  font-size: 300%;
+}
+.top-color-div {
+  background-color: teal;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.project-list {
+  background-color: teal;
+}
+
+.projects {
+  position: relative;
+  left: 15%;
+}
+
+.skills-list {
+  background-color: teal;
+}
+
+.skills {
+  position: relative;
+  left: 10.5%;
+  color: white;
+}
+
+.about {
+  background-color: teal;
 }
