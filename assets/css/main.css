@@ -117,7 +117,7 @@ html {
 
 .projects {
   position: relative;
-  left: 15%;
+  right: 3%;
   top: 65px;
 }
 
@@ -137,15 +137,24 @@ html {
 
 .project1 {
   position: relative;
-  right: 32%;
+  /*right: 32%;*/
+  padding-right: 31%;
 }
 
 .project2 {
   position: relative;
-  right: 16%;
+  /*right: 16%;*/
+  padding-left: 5%;
 }
 
 .project3 {
   position: relative;
-  right: 0.5%;
+  /*right: 0.5%;*/
+  padding-left: 18%;
+}
+
+@media (max-width: 600) {
+  .about {
+    background-color: red;
+  }
 }
