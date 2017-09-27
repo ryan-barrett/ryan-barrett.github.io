@@ -119,6 +119,7 @@ html {
   position: relative;
   right: 3%;
   top: 65px;
+  color: white;
 }
 
 .skills-list {
@@ -146,4 +147,26 @@ html {
   width: 25%;
   position: relative;
   right: 40%;
+}
+
+ul {
+  list-style: none;
+}
+
+.other-ul {
+  position: relative;
+  right: 8%;
+}
+
+.project-description {
+  color: white;
+}
+
+p {
+  float: left;
+}
+
+.about-text {
+  color: white;
+  width: 100px;
 }
