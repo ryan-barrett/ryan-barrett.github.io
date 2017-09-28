@@ -1,11 +1,11 @@
 .topnav {
-  background-color: #caebf2;
+  background-color: #57bc90;
   overflow: hidden;
 }
 .topnav a {
   float: left;
   display: block;
-  color: #433237;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -39,7 +39,7 @@
 
 .splash-text {
   position: relative;
-  bottom: 60px;
+  top: 10px;
 }
 
 body {
@@ -51,9 +51,7 @@ hr {
   right: 29%;
 }
 footer {
-  position: relative;
-  top: 100px;
-  right: 200px;
+  background-color: #57bc90;
 }
 html {
   font-size: 100%;
@@ -104,15 +102,34 @@ html {
   font-size: 300%;
 }
 .top-color-div {
-  background-color: teal;
+  background-color: #57bc90;
 }
 
 .section-title {
   text-align: center;
+  padding: 0;
+  position: relative;
+  bottom: 18px;
+}
+
+.section-title-2 {
+  text-align: center;
+  padding: 0;
+  position: relative;
+  bottom: 38px;
+}
+
+.section-title-3 {
+  text-align: center;
+  padding: 0;
+  position: relative;
+  bottom: 61px;
 }
 
 .project-list {
-  background-color: teal;
+  background-color: #57bc90;
+  position: relative;
+  bottom: 21px;
 }
 
 .projects {
@@ -123,7 +140,9 @@ html {
 }
 
 .skills-list {
-  background-color: teal;
+  background-color: #57bc90;
+  position: relative;
+  bottom: 44px;
 }
 
 .skills {
@@ -133,7 +152,10 @@ html {
 }
 
 .about {
-  background-color: teal;
+  background-color: #57bc90;
+  position: relative;
+  bottom: 66px;
+  height: 500px;
 }
 
 .floating-box {
@@ -168,5 +190,20 @@ p {
 
 .about-text {
   color: white;
-  width: 100px;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+.my-image {
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mobile-padding {
+  padding-right: 10%;
 }
