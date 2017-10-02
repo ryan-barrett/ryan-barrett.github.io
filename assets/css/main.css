@@ -220,3 +220,13 @@ p {
   left: 0%;
   border: solid 2px white;
 }
+
+.connect {
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
