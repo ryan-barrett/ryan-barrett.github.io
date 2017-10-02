@@ -1,5 +1,5 @@
 .topnav {
-  background-color: #57bc90;
+  background-color: RGBA(44, 46, 54, 1);
   overflow: hidden;
 }
 .topnav a {
@@ -28,7 +28,8 @@
   min-height: 600px;
   background-size: cover;
   background-position: top;
-  background-image: url("https://i.imgur.com/vsVUgGE.jpg");
+  background-image: url("https://i.imgur.com/HbSSJEv.jpg");
+  background-position: 20%;
 }
 
 .splash-login-container {
@@ -39,11 +40,12 @@
 
 .splash-text {
   position: relative;
-  top: 10px;
+  top: 35px;
 }
 
 body {
   background-color: #efefef;
+  font-family: "Montserrat", sans-serif;
 }
 hr {
   width: 45%;
@@ -51,7 +53,7 @@ hr {
   right: 29%;
 }
 footer {
-  background-color: #57bc90;
+  background-color: RGBA(44, 46, 54, 1);
 }
 html {
   font-size: 100%;
@@ -94,15 +96,19 @@ html {
 
 .splash-info {
   color: white;
-  font-size: 400%;
+  font-size: 425%;
+  position: relative;
+  top: 20px;
 }
 
 .splash-info-sub {
   color: white;
-  font-size: 300%;
+  font-size: 325%;
+  position: relative;
+  top: 20px;
 }
 .top-color-div {
-  background-color: #57bc90;
+  background-color: RGBA(44, 46, 54, 1);
 }
 
 .section-title {
@@ -127,7 +133,7 @@ html {
 }
 
 .project-list {
-  background-color: #57bc90;
+  background-color: RGBA(44, 46, 54, 1);
   position: relative;
   bottom: 21px;
 }
@@ -140,7 +146,7 @@ html {
 }
 
 .skills-list {
-  background-color: #57bc90;
+  background-color: RGBA(44, 46, 54, 1);
   position: relative;
   bottom: 44px;
 }
@@ -152,7 +158,7 @@ html {
 }
 
 .about {
-  background-color: #57bc90;
+  background-color: RGBA(44, 46, 54, 1);
   position: relative;
   bottom: 66px;
   height: 500px;
@@ -206,4 +212,11 @@ p {
 
 .mobile-padding {
   padding-right: 10%;
+}
+
+.header-hr {
+  width: 40%;
+  position: relative;
+  left: 0%;
+  border: solid 2px white;
 }
