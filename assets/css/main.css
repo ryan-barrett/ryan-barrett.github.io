@@ -44,7 +44,7 @@
 }
 
 body {
-  background-color: #efefef;
+  background-color: RGBA(44, 46, 54, 1);
   font-family: "Montserrat", sans-serif;
 }
 hr {
@@ -54,6 +54,8 @@ hr {
 }
 footer {
   background-color: RGBA(44, 46, 54, 1);
+  color: white;
+  text-align: center;
 }
 html {
   font-size: 100%;
@@ -116,6 +118,7 @@ html {
   padding: 0;
   position: relative;
   bottom: 18px;
+  background-color: #efefef;
 }
 
 .section-title-2 {
@@ -123,6 +126,7 @@ html {
   padding: 0;
   position: relative;
   bottom: 38px;
+  background-color: #efefef;
 }
 
 .section-title-3 {
@@ -130,6 +134,7 @@ html {
   padding: 0;
   position: relative;
   bottom: 61px;
+  background-color: #efefef;
 }
 
 .project-list {
@@ -161,7 +166,8 @@ html {
   background-color: RGBA(44, 46, 54, 1);
   position: relative;
   bottom: 66px;
-  height: 500px;
+  height: 300px;
+  margin-bottom: 0;
 }
 
 .floating-box {
@@ -229,4 +235,13 @@ p {
 i {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.contact-info {
+  position: relative;
+  bottom: 150px;
+}
+
+.contact-title {
+  position: relative;
 }
