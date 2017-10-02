@@ -203,14 +203,14 @@ p {
 .about-text {
   color: white;
   position: relative;
-  top: 15px;
+  top: 20px;
   left: 10px;
 }
 
 .my-image {
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   position: relative;
-  top: 15px;
+  bottom: 45px;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -244,4 +244,17 @@ i {
 
 .contact-title {
   position: relative;
+}
+
+.image-frame {
+  overflow: hidden;
+  /*background-color: red;*/
+  height: 188px;
+  width: 188px;
+  position: relative;
+  top: 30px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
