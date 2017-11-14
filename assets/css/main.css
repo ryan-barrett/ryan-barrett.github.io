@@ -256,14 +256,14 @@ i {
   position: relative;
 }
 
-.image-frame {
+#image-frame {
   overflow: hidden !important;
   /*background-color: red;*/
   height: 188px;
   width: 188px !important;
   position: relative;
   top: 30px;
-  border-radius: 50%;
+  border-radius: 50% !important;
   display: block;
   margin: 0 auto;
   padding: auto;
