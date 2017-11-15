@@ -204,10 +204,13 @@ ul {
 
 .project-description {
   color: white;
+  /*width: 125%;*/
 }
 
 p {
   float: left;
+  width: 1100%;
+  text-align: center;
 }
 
 .about-text {
@@ -271,5 +274,7 @@ i {
   perspective: 1px;
 }
 
-.other-div {
+.project-title {
+  display: block;
+  text-align: center;
 }
