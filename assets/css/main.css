@@ -283,3 +283,9 @@ i {
   display: block;
   text-align: center;
 }
+
+.connect-button {
+  padding-top: 25px;
+  display: block;
+  text-align: center;
+}
