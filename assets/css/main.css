@@ -209,7 +209,7 @@ ul {
 
 p {
   float: left;
-  width: 1100%;
+  width: 1300%;
   text-align: center;
 }
 
@@ -275,6 +275,11 @@ i {
 }
 
 .project-title {
+  display: block;
+  text-align: center;
+}
+
+.repo-button {
   display: block;
   text-align: center;
 }
