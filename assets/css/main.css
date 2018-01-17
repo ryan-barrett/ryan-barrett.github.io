@@ -28,7 +28,7 @@
   min-height: 600px;
   background-size: cover;
   background-position: top;
-  background-image: url("https://i.imgur.com/HbSSJEv.jpg");
+  background-image: url("https://i.imgur.com/fnAIWX4.jpg");
   background-position: 20%;
 }
 
@@ -110,14 +110,14 @@ html {
   color: white;
   font-size: 425%;
   position: relative;
-  top: 20px;
+  top: 45px;
 }
 
 .splash-info-sub {
   color: white;
   font-size: 325%;
   position: relative;
-  top: 20px;
+  top: -5px;
 }
 .top-color-div {
   background-color: RGBA(44, 46, 54, 1);
@@ -238,6 +238,7 @@ p {
   position: relative;
   left: 0%;
   border: solid 2px white;
+  top: 10px;
 }
 
 .connect {
