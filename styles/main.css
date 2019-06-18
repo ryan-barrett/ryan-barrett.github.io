@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .splash-container {
   width: 100%;
   height: 40rem;
@@ -13,12 +17,29 @@
 }
 
 .title-text {
-  margin-top: 4rem;
-  font-size: 5rem;
+  margin-top: 5rem;
+  font-size: 4.5rem;
 }
 
 .title-subtext {
-  margin-top: -3rem;
+  margin-top: -2.5rem;
   margin-bottom: 17.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.main-item {
+  background-color: RGBA(44, 46, 54, 1);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-heading {
+  display: block;
+  text-align: center;
+  margin-top: .6rem;
+  margin-bottom: .3rem;
+  font-size: 1.6rem;
 }
