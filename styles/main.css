@@ -53,6 +53,7 @@ body {
 
 .experience-item {
   margin-left: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .experience-top-row {
@@ -95,4 +96,9 @@ body {
   max-width: 15rem;
   margin: 1rem;
   cursor: pointer;
+}
+
+.experience-hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
