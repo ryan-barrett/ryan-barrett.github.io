@@ -167,7 +167,7 @@ body {
   margin-bottom: 2rem;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.77) and (orientation: portrait) {
   html,
   body {
     width: 100%;
