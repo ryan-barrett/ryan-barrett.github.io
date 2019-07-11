@@ -151,3 +151,11 @@ body {
   margin: .5rem;
   font-size: 1.05rem;
 }
+
+#about-me-text {
+  align-self: center;
+  width: 70%;
+  margin: 2rem;
+  line-height: 2;
+  font-size: 1.1rem;
+}
