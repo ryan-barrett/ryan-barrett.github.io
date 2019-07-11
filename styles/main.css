@@ -99,6 +99,14 @@ body {
   cursor: pointer;
 }
 
+.project-item {
+  margin: 1rem;
+}
+
+.project-description {
+  width: 18rem;
+}
+
 .experience-hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
