@@ -7,7 +7,7 @@ body {
   height: 40rem;
   background-size: cover;
   background-position: center;
-  background-image: url("../assets/images/tahoesplash.jpg");
+  background-image: url("../assets/images/tahoesplash.webp");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   display: flex;
@@ -155,9 +155,16 @@ body {
 #about-me-text {
   align-self: center;
   width: 70%;
-  margin: 2rem;
+  margin: 1.5rem;
   line-height: 2;
   font-size: 1.1rem;
+}
+
+.email-icon {
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
