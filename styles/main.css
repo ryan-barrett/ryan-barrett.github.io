@@ -2,18 +2,24 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+#main-container {
+  background-color: RGBA(44, 46, 54, 1);
+  color: white;
+}
+
 .splash-container {
   width: 100%;
   height: 40rem;
   background-size: cover;
   background-position: center;
   background-image: url("../assets/images/tahoesplash.webp");
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   transition: 0.3s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 
 .title-text {
@@ -47,7 +53,6 @@ body {
 .main-item {
   background-color: RGBA(44, 46, 54, 1);
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   display: flex;
   flex-direction: column;
@@ -57,11 +62,13 @@ body {
   font-size: 48px;
   color: white;
   margin: 0.5rem 0.8rem;
+  margin-top: 1rem;
 }
 
 .connect-row {
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .container-heading {
@@ -69,7 +76,15 @@ body {
   text-align: center;
   margin-top: 0.6rem;
   margin-bottom: 0.6rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.header-hr {
+  width: 8%;
+}
+
+#experience-container {
+  margin-top: 1rem;
 }
 
 #experiences {
@@ -77,6 +92,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header-hr-experience {
+  width: 9%;
 }
 
 .experience-item {
@@ -107,17 +126,23 @@ body {
 
 .project-header {
   text-align: center;
+  font-size: 1.2rem;
+}
+
+.header-hr-projects {
+  width: 14%;
 }
 
 .project-image-container {
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
 .project-title {
   text-align: center;
+  font-weight: bold;
 }
 
 .project-image {
@@ -125,6 +150,7 @@ body {
   max-width: 15rem;
   margin: 1rem;
   cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .project-item {
@@ -152,19 +178,16 @@ body {
   font-size: 1.05rem;
 }
 
+.header-hr-about {
+  width: 5%;
+}
+
 #about-me-text {
   align-self: center;
   width: 70%;
   margin: 1.5rem;
   line-height: 2;
   font-size: 1.1rem;
-}
-
-.email-icon {
-  text-align: center;
-  font-size: 48px;
-  color: white;
-  margin-bottom: 2rem;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.77) and (orientation: portrait) {
