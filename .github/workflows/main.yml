@@ -8,12 +8,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      action "Deploy Production Site" {
-        uses = "ryan-barrett/ryan-barrett.github.io@master"
-        args = "deploy --only hosting:prod"
-        env = {
-          PROJECT_ID = ["PROJECT_ID"]
-        }
-        secrets = ["FIREBASE_TOKEN"]
+    action "Deploy Production Site" {
+      uses = "ryan-barrett/ryan-barrett.github.io@master"
+      args = "deploy --only hosting:prod"
+      env = {
+        PROJECT_ID = ["PROJECT_ID"]
       }
+      secrets = ["FIREBASE_TOKEN"]
+    }
