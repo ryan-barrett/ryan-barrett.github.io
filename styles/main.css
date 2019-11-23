@@ -172,6 +172,12 @@ body {
   margin-bottom: 2rem;
 }
 
+.experience-hr-small {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width:60%;
+}
+
 #skills-container {
   display: flex;
   justify-content: center;
