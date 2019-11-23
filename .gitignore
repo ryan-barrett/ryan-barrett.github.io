@@ -1,2 +1,6 @@
 .DS_Store
 .firebase
+firebase-debug.log
+404.html
+firebase.json
+.firebaserc
